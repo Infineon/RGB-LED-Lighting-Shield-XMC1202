@@ -20,7 +20,7 @@
 *
 */
 // ----------------------------------------------------------------------------
-#include "InfineonRGB.h"
+#include <RGBLEDLighting.h>
 
 #include <stdio.h>
 #include <string.h>
