@@ -1,0 +1,28 @@
+#######################################
+# Syntax Coloring Map For InfineonRGB
+####################################### 
+# Class
+#######################################
+
+InfineonRGB	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################	
+
+begin	KEYWORD2
+SetIntensityRGB	KEYWORD2
+SetIntensityRed	KEYWORD2
+SetIntensityGreen	KEYWORD2
+SetIntensityBlue	KEYWORD2
+SetDimmingLevel	KEYWORD2
+SetOffTimesRGB	KEYWORD2
+SetCurrentRGB	KEYWORD2
+SetFadeRate	KEYWORD2
+SetWalkTime	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
