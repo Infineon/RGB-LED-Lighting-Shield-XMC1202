@@ -25,7 +25,7 @@ Please find the quick start guide [here](https://www.infineon.com/dgdl/Infineon-
 ## Installation
 
 ### Integration of Library
-Please download this repository from GitHub by clicking on the following field in the latest [release](https://github.com/Infineon/RGB-LED-Lighting-Shield-XMC1202/releases) of this repository or directly [here](https://github.com/Infineon/RGB-LED-Lighting-Shield-XMC1202/releases/download/V1.0.0/RGB-LED-Lighting-Shield-XMC1202.zip):
+Please download this repository from GitHub by clicking on the following field in the latest [release](https://github.com/Infineon/RGB-LED-Lighting-Shield-XMC1202/releases) of this repository or directly [here](https://github.com/Infineon/RGB-LED-Lighting-Shield-XMC1202/releases/download/v1.0.0/RGB-LED-Lighting-Shield-XMC1202.zip):
 
 ![Download Library](https://raw.githubusercontent.com/infineon/assets/master/Pictures/Releases_Generic.jpg)
 
