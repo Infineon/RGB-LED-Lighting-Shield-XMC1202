@@ -1,0 +1,17 @@
+{
+    "name": "RGB-LED-Lighting-Shield-XMC1202",
+    "keywords": "LED, lighting, shield2go, RGB, XMC1202",
+    "description": "This library provides an interface to communicate with the RGB LED Lighting Shield XMC1202 via I2C interfaces",
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/Infineon/RGB-LED-Lighting-Shield-XMC1202.git",
+      "branch": "master"
+    },
+    "version":"1.0.0",
+    "frameworks": "arduino",
+    "platforms": [
+        "infineonxmc",
+        "atmelavr"
+    ]
+  }
