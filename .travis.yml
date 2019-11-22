@@ -18,3 +18,6 @@ install:
 
 script:
     - platformio ci --lib="." --board=xmc1100_boot_kit --board=xmc4700_relax_kit --board=uno
+    
+after_success:
+  - coveralls
