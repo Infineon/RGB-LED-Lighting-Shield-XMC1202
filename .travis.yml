@@ -14,12 +14,11 @@ env:
 
 install:
     - pip install -U platformio
-    - pip install  cpp-coveralls
     - platformio platform install -f infineonxmc 
     - platformio platform install -f atmelavr
 
 script:
-    - platformio ci --lib="." --board=xmc1100_boot_kit --board=xmc4700_relax_kit --board=uno
+    - coverage run platformio ci --lib="." --board=xmc1100_boot_kit --board=xmc4700_relax_kit --board=uno
     
 after_success:
   - coveralls
