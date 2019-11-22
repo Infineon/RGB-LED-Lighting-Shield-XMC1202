@@ -6,6 +6,7 @@ sudo: required
         
 branches:
     - master
+    -develop
 
 env:
     matrix:
@@ -13,7 +14,7 @@ env:
 
 install:
     - pip install -U platformio
-    - pip install --user cpp-coveralls
+    - pip install  cpp-coveralls
     - platformio platform install -f infineonxmc 
     - platformio platform install -f atmelavr
 
