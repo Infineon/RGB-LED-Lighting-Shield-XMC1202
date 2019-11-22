@@ -6,7 +6,7 @@ sudo: required
         
 branches:
     - master
-    -develop
+    - develop
 
 env:
     matrix:
