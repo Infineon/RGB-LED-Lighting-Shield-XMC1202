@@ -4,8 +4,6 @@
 
 <img src="https://www.infineon.com/export/sites/default/media/products/Microcontrollers/RGB_LED_Shield_with_XMC1202_plain.jpg_1716340521.jpg" width="300">
 
-[![Coverage Status](https://coveralls.io/repos/github/Infineon/RGB-LED-Lighting-Shield-XMC1202/badge.svg?branch=master)](https://coveralls.io/github/Infineon/RGB-LED-Lighting-Shield-XMC1202?branch=master)
-
 Library of Infineon's [RGB LED Lighting Shield XMC1202](https://www.infineon.com/cms/de/product/evaluation-boards/kit_led_xmc1202_as_01/) for Arduino.
 
 ## Summary
