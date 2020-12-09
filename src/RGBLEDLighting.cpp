@@ -326,7 +326,7 @@ unsigned int InfineonRGB:: I2CREAD (unsigned int Address, unsigned int Command) 
 
   Wire.beginTransmission(byte(upperSLAD));
   Wire.write(byte(lowerSLAD));
-  Wire.requestFrom(upperSLAD, 2, true);
+  Wire.requestFrom(static_cast<uint8_t>(upperSLAD), static_cast<uint8_t>(2), static_cast<uint8_t>(true));
   unsigned int data = 0;
 
   while (Wire.available())   // slave may send less than requested. Print out received data byte
@@ -381,7 +381,7 @@ unsigned long InfineonRGB:: I2CREAD_DIRECTACCESS (unsigned int Address, unsigned
 
   Wire.beginTransmission(byte(upperSLAD)); // request for read
   Wire.write(byte(lowerSLAD));
-  Wire.requestFrom(upperSLAD, 4, true);
+  Wire.requestFrom(static_cast<uint8_t>(upperSLAD), static_cast<uint8_t>(4), static_cast<uint8_t>(true));
   unsigned long data = 0;
 
   while (Wire.available())   // slave may send less than requested. Print out received data byte
@@ -513,7 +513,7 @@ void InfineonRGB:: I2CSAVEPARAM (unsigned int Address)
 
   Wire.beginTransmission(byte(upperSLAD));
   Wire.write(byte(lowerSLAD)); // write to address lower 8 bits of slave address
-  Wire.requestFrom(upperSLAD, 2, true);  // send READ request with upper slave address
+  Wire.requestFrom(static_cast<uint8_t>(upperSLAD), static_cast<uint8_t>(2), static_cast<uint8_t>(true));
   unsigned int data = 0;
 
   while (Wire.available())   // slave may send less than requested. Print out received data byte
